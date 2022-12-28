@@ -24,3 +24,18 @@ h2{
     cursor: default;
     text-align: center;
 }
+
+h2::before{
+    content: '';
+    position: absolute;
+    top: 48px;
+    height: 4px;
+    width: calc(100% - 135px);
+    background: #f00;
+    transition: transform 0.5s;
+    transform-origin: left;
+    box-shadow: 0 0 5px #f00,
+    0 0 15px #f00,
+    0 0 30px #f00,
+    0 0 60px #f00;
+}
