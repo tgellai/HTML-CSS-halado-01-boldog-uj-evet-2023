@@ -44,3 +44,13 @@ h2:hover::before{
     transform-origin: right;
     transform: scaleX(0);
 }
+
+h2 span{
+    position: absolute;
+    transition: 0.25s;
+    color: #f00;
+    text-shadow: 0 0 5px #f00,
+    0 0 15px #f00,
+    0 0 30px #f00,
+    0 0 60px #f00;
+}
