@@ -39,3 +39,8 @@ h2::before{
     0 0 30px #f00,
     0 0 60px #f00;
 }
+
+h2:hover::before{
+    transform-origin: right;
+    transform: scaleX(0);
+}
