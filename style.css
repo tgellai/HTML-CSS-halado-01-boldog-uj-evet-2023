@@ -14,3 +14,13 @@ body{
     min-height: 100vh;
     background: #222;
 }
+
+h2{
+    position: relative;
+    font-size: 4em;
+    color: #404040;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    cursor: default;
+    text-align: center;
+}
